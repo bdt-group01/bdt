@@ -10,11 +10,11 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class MR1 {
 	//输入文件路径
-	String inPath="/input/1.txt";
+	String inPath="/input/ub.csv";
 	//输出文件路径
 	String outPath="/output/itemcf";
 	//hdfs地址
-	private static  String hdfs="hdfs://xxx.xxx.xxx.xxx:9000";
+	private static  String hdfs="hdfs://localhost:9000";
 	
 	public int run() throws IOException, ClassNotFoundException, InterruptedException {
 		//创建job配置类

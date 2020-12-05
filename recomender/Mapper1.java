@@ -17,7 +17,16 @@ public class Mapper1 extends Mapper<LongWritable,Text,Text,Text>  {
 		String[] values = value.toString().split(",");
 		String userID = values[0];
 		String itemID = values[1];
-		String score = values[2];
+		String score = values[3];
+        if(score.equals("pv")){
+            score="1";
+        }else if(score.equals("cart")){
+            score="3";
+        }else if(score.equals("fav")){
+            score="5";
+        }else if(score.equals("buy")){
+            score="10";
+        }
 		
 		outKey.set(itemID);
 		outValue.set(userID+"_"+score);
