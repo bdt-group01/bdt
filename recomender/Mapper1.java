@@ -1,0 +1,27 @@
+import java.io.IOException;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Mapper1 extends Mapper<LongWritable,Text,Text,Text>  {
+	private Text outKey = new Text();//输出的key
+	private Text outValue = new Text();//输出的value
+	
+	/**
+	 * key:1	2...
+	 * value:A,1,1	C,3,5
+	 */
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		String[] values = value.toString().split(",");
+		String userID = values[0];
+		String itemID = values[1];
+		String score = values[2];
+		
+		outKey.set(itemID);
+		outValue.set(userID+"_"+score);
+		
+		context.write(outKey, outValue);
+	}
+}
