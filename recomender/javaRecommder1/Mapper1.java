@@ -16,8 +16,11 @@ public class Mapper1 extends Mapper<LongWritable,Text,Text,Text>  {
 			throws IOException, InterruptedException {
 		String[] values = value.toString().split(",");
 		String userID = values[0];
+		userID = userID.substring(1, userID.length()-1);
 		String itemID = values[1];
+		itemID = itemID.substring(1, itemID.length()-1);
 		String score = values[3];
+		score = score.substring(1, score.length()-1);
         if(score.equals("pv")){
             score="1";
         }else if(score.equals("cart")){
