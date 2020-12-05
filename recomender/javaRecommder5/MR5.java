@@ -18,7 +18,7 @@ public class MR5 {
 	//将step1输出的转置矩阵作为全局缓存
 	private static String cache="/output/itemcf/part-r-00000";
 	//hdfs地址
-	private static  String hdfs="hdfs://xxx.xxx.xxx.xxx:9000";
+	private static  String hdfs="hdfs://localhost:9000";
 	
 	public int run() throws IOException, URISyntaxException, ClassNotFoundException, InterruptedException {
 		//创建job配置类
