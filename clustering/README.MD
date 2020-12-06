@@ -1,3 +1,4 @@
+Execuation Step:
 1. Generate processed data. Since "mapreduceUserBehavior.txt" is a hardcode filename in kmeans.py, you dont need to modify it.
   cat "filename" | ./mapper_countFrequency.py | sort | ./reducer_countFrequency.py > mapreduceUserBehavior.txt 
   ex: cat userBehavior.csv | ./mapper_countFrequency.py | sort | ./reducer_countFrequency.py > mapreduceUserBehavior.txt 
