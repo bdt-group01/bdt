@@ -12,13 +12,13 @@ Execuation Step:
 
 
 
-Explaination:
-The purpose of this project is to find the most loyal customers based on their latest purchase time and their purchase frequency. The first step is to use map reduce function to get their latest purhcase time and their purchase frequency. Then use kmeans algorithm to clusters the customer groups. Then we can clearly see the loyalty level of each customer groups on the graph 
+Explaination:\
+The purpose of this project is to find the most loyal customers based on their latest purchase time and their purchase frequency. The first step is to use map reduce function to get their latest purhcase time and their purchase frequency. Then use kmeans algorithm to clusters the customer groups. Then we can clearly see the loyalty level of each customer groups on the graph. 
 
-Files:
-MapReduce Program( mapper_countFrequency.py reducer_countFrequency.py )
-Kmeans Algorithm( kmeans.py )
-Initial Test Data ( userBehavior.csv)
-Processed Data( mapreduceUserBehavior.txt )
-Sample Result Image( result.png )
+Files: \
+MapReduce Program( mapper_countFrequency.py reducer_countFrequency.py )\
+Kmeans Algorithm( kmeans.py )\
+Initial Test Data ( userBehavior.csv)\
+Processed Data( mapreduceUserBehavior.txt )\
+Sample Result Image( result.png )\
 BehaviorTransformation&Hour.sql
