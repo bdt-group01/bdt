@@ -1,11 +1,11 @@
 Execuation Step:
-1. Generate processed data. Since "mapreduceUserBehavior.txt" is a hardcode filename in kmeans.py, you dont need to modify it.
-  cat "filename" | ./mapper_countFrequency.py | sort | ./reducer_countFrequency.py > mapreduceUserBehavior.txt 
+1. Generate processed data. Since "mapreduceUserBehavior.txt" is a hardcode filename in kmeans.py, you dont need to modify it.\
+  cat "filename" | ./mapper_countFrequency.py | sort | ./reducer_countFrequency.py > mapreduceUserBehavior.txt\ 
   ex: cat userBehavior.csv | ./mapper_countFrequency.py | sort | ./reducer_countFrequency.py > mapreduceUserBehavior.txt 
-2. Run kmeans algorithm. You need to set a "k" number in line 120
+2. Run kmeans algorithm. You need to set a "k" number in line 120 \
   python kmeans.py
-3. NEED HELP!
-  a. currently I randomly select k points as the initial centers, which may affect the accuracy and efficiency on clustering. Need improvement on that.
+3. NEED HELP!\
+  a. currently I randomly select k points as the initial centers, which may affect the accuracy and efficiency on clustering. Need improvement on that.\
   b. for the k value, I select it based on experience. Need better algorithm to do the jobs.
 
 
