@@ -19,7 +19,7 @@ Files: \
 MapReduce Program( mapper_countFrequency.py reducer_countFrequency.py )\
 Kmeans Algorithm( kmeans.py )\
 Initial Test Data ( date_100k.csv)\
-Processed Data( mapReduce_processedData )\
+Processed Data( mapreduceUserBehavior_100k.txt mapReduce_processedData )\
 Sample Result Image( kmean_result)\
 Sample Kmeans++ Result( kmeans++_result) \
 Sample Silhouette Coefficient Result( silhouette_coefficient_result) 
