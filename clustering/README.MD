@@ -3,7 +3,7 @@ Execuation Step:
   cat "filename" | ./mapper_countFrequency.py | sort | ./reducer_countFrequency.py > "output_filename" \
   ex: cat userBehavior.csv | ./mapper_countFrequency.py | sort | ./reducer_countFrequency.py > mapreduceUserBehavior.txt 
 2. Run kmeans algorithm. 
-  In line 224, put the filename into the box.
+  In line 224, put the filename into the box.\
   In line 223, if you set 'cal_sc' = True, the program will calculate the best K value ranging from(2, 12). You can also change the range in line 226. The program will generate the graph showing the silhouette coefficients in the range and the result from K-Means \
   In line 223, if you set 'cal_sc' = False and set the k value, the program will only geneate the result from K-Means with given K value. \
   run "python kmeans.py"
