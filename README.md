@@ -30,7 +30,7 @@ Works our group did in this project:
 All the group members equally participated in this course project.  
 
 > - AWS : Sun pengliang  
-> - Data processing: Zhang Hongquan 
+> - Data processing: Zheng Qingdan 
 > - Frequenct itemsets: Zhang Hongquan
 > - K-means: Liang Junjie
 > - Recommender system: Zheng Qingdan, Zhang Hongquan,Sun Pengliang
