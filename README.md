@@ -9,5 +9,4 @@
 
 ### Notice
 
-- 数据不要放在这个项目里, 这里只存代码
-- 代码尽量封装成函数, 好调用
+- data folder: https://drive.google.com/drive/folders/1cPY8s_5-dH3QIkcuwFbFnEDJjVzMnRk9?usp=sharing
