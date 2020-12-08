@@ -1,4 +1,4 @@
-This part is relating to the recommend system. The example input file for recommend.py/recommendItem.py can found [there](https://drive.google.com/drive/folders/1cPY8s_5-dH3QIkcuwFbFnEDJjVzMnRk9?usp=sharing).
+This part is relating to the recommend system. The example input file for Recommend/recommend.py&recommendItem.py can found [there](https://drive.google.com/drive/folders/1cPY8s_5-dH3QIkcuwFbFnEDJjVzMnRk9?usp=sharing).
 
 # File Description
 
