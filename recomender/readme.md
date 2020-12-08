@@ -8,6 +8,7 @@ Platform: Linux
 ```
 
 **Description:**
+MapReduce_Java
 
 ```
 recommendItem.py    The program to recommned item to specific users
