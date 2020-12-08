@@ -1,7 +1,8 @@
 # bdt
 
 - AWS : Sun
-- data processing, recommender system: Zheng
+- data preprocessing: Zheng
+- recommender system: Zheng, Sun
 - frequenct-itemsets: Zhang
 - K-means: Liang
 
