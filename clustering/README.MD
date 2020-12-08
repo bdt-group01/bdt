@@ -16,10 +16,10 @@ The purpose of this project is to find the most loyal customers based on their l
 
 
 Files: \
-MapReduce Program( mapper_countFrequency.py reducer_countFrequency.py )\
-Kmeans Algorithm( kmeans.py )\
-Initial Test Data ( date_100k.csv)\
-Processed Data( mapreduceUserBehavior_100k.txt mapReduce_processedData )\
-Sample Result Image( kmean_result)\
-Sample Kmeans++ Result( kmeans++_result) \
-Sample Silhouette Coefficient Result( silhouette_coefficient_result) 
+1. MapReduce Program( mapper_countFrequency.py reducer_countFrequency.py )\
+2. Kmeans Algorithm( kmeans.py )\
+3. Initial Test Data ( date_100k.csv)\
+4. Processed Data( mapreduceUserBehavior_100k.txt mapReduce_processedData )\
+5. Sample Result Image( kmean_result)\
+6. Sample Kmeans++ Result( kmeans++_result) \
+7. Sample Silhouette Coefficient Result( silhouette_coefficient_result) 
