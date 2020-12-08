@@ -13,10 +13,10 @@ The group project of CMSC5741 2020fall
 
 Works our group did in this project:
 
-1. Data processing for data processing.
-2. [Apriori algorithm](https://github.com/Dopeeee/Datamining2020/tree/main/Margin_Perceptron_Java) for implementing the apriori algorithm to find the frequent itemsets.
-3. [Clustring](https://github.com/Dopeeee/Datamining2020/tree/main/Decision%20Tree%20Python) for implementing the k-means and derivate algorithms to find out the similar groups.
-4. [Recommender system](https://github.com/Dopeeee/Datamining2020/tree/main/data) for implementing the  collaborative filtering based on item.
+1. [Data processing](https://github.com/bdt-group01/bdt/tree/main/Data%20processing) for data processing.
+2. [Apriori algorithm](https://github.com/bdt-group01/bdt/tree/main/Apriori%20algorithm) for implementing the apriori algorithm to find the frequent itemsets.
+3. [Clustring](https://github.com/bdt-group01/bdt/tree/main/clustering) for implementing the k-means and derivate algorithms to find out the similar groups.
+4. [Recommender system](https://github.com/bdt-group01/bdt/tree/main/Recommender%20system) for implementing the  collaborative filtering based on item.
 
 ## Team Member
 
