@@ -8,12 +8,7 @@ recommend.py is the program to recommned the popular items
 recommendItem.py is the program to recommned item to specific users
 ```
 
-<<<<<<< HEAD
-**Environment:**
-=======
-**Description:**
-MapReduce_Java
->>>>>>> 4fde68f94b39862fa319bdf1878d5e0d4ea897f0
+**Environment**:
 
 ```
 python: 3.x
@@ -24,9 +19,11 @@ Platform: Linux
 **Usage:**
 
 ```
-MapReduce_Java/javaRecommderx
+MapReduce_Java:
+javaRecommderx
 example: sh run.sh
 
+Recommend
 recommend.py
 example: python recommend.py -input output_5.txt -n 3 -r 2
 
